@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Dark theme background color */
+    color: #f4f4f4; /* Dark theme text color */
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 800px; /* Container width */
+    margin: auto;
+}
+
+h1 {
+    color: #f4f4f4; /* Dark theme heading color */
+    margin-bottom: 30px; /* Space below the heading */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 15px; /* Space between buttons */
+    margin-top: 20px; /* Space above the buttons */
+}
+
+.sound-button {
+    width: 100%; /* Full width of the grid cell */
+    padding: 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    background-color: #444; /* Dark theme button color */
+    color: #f4f4f4; /* Dark theme button text color */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Transition for hover effects */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+.sound-button:hover {
+    background-color: #555; /* Darker hover color */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
